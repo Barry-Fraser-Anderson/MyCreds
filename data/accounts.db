@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "name": "Amazon",
+      "login": "amazonlogin",
+      "password": "7890zxcv",
+      "code": "",
+      "notes": ""
+    },
+    {
+      "id": "5",
+      "name": "eBay",
+      "login": "ebaylogin",
+      "password": "1234qwer",
+      "code": "",
+      "notes": ""
+    },
+    {
+      "id": "2",
+      "name": "PayPal",
+      "login": "paypallogin",
+      "password": "5678asdf",
+      "code": "",
+      "notes": ""
+    },
+    {
+      "id": "3",
+      "name": "Steam",
+      "login": "steamlogin",
+      "password": "S234-=90",
+      "code": "",
+      "notes": ""
+    },
+    {
+      "id": "6",
+      "name": "Credit Card",
+      "login": "secretlogin",
+      "password": "1h6=90gvyf?@z",
+      "code": "",
+      "notes": ""
+    },
+    {
+      "id": "4",
+      "name": "Outlook",
+      "login": "outlooklogin",
+      "password": "O456L-=",
+      "code": "",
+      "notes": ""
+    }
+  ]
+}
