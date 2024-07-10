@@ -1,10 +1,10 @@
 # MyCreds
 
-A Vue3 and Bootstrap exercise
+A Vue3, JavaScript, and Bootstrap exercise
 
 # Description
 
-A password vault using Vue3, bootrap and json-server.
+A password vault using Vue3.js, Bootstrap and json-server.
 
 I wrote this as I found storing my passwords, etc. in an Excel spreadsheet was quite cumbersome.
 At the moment it is rather basic, but I intend to add more capabilities:
