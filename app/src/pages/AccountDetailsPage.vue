@@ -61,7 +61,7 @@ export default {
         <form @submit.prevent="upsertAccount">
           <div class="row">
             <div class="col">
-              <div class="form-floating mb-3 py-2">
+              <div class="form-floating mb-3 py-1">
                 <input
                   type="text"
                   class="form-control"
@@ -73,7 +73,7 @@ export default {
               </div>
             </div>
             <div class="col">
-              <div class="form-floating mb-3 py-2">
+              <div class="form-floating mb-3 py-1">
                 <input
                   type="text"
                   class="form-control"
@@ -87,7 +87,7 @@ export default {
 
           <div class="row">
             <div class="col">
-              <div class="form-floating mb-3 py-2">
+              <div class="form-floating mb-3 py-1">
                 <input
                   type="text"
                   class="form-control"
@@ -100,7 +100,7 @@ export default {
             </div>
 
             <div class="col">
-              <div class="form-floating mb-3 py-2">
+              <div class="form-floating mb-3 py-1">
                 <input
                   type="text"
                   class="form-control"
@@ -113,7 +113,7 @@ export default {
             </div>
           </div>
 
-          <div class="form-floating mb-3 py-2 col-3">
+          <div class="form-floating mb-3 py-1 col-3">
             <input
               type="text"
               class="form-control"
@@ -123,13 +123,8 @@ export default {
             <label for="code">Code</label>
           </div>
 
-          <div class="form-floating mb-3 py-2">
-            <textarea
-              rows="2"
-              class="form-control"
-              id="notes"
-              v-model="account.notes"
-            />
+          <div class="form-floating mb-3 py-1">
+            <textarea class="form-control" id="notes" v-model="account.notes" />
             <label for="notes">Notes</label>
           </div>
 
