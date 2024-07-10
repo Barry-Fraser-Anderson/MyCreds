@@ -7,7 +7,9 @@ A Vue3, JavaScript, and Bootstrap exercise
 A password vault using Vue3.js, Bootstrap and json-server.
 
 I wrote this as I found storing my passwords, etc. in an Excel spreadsheet was quite cumbersome.
+
 At the moment it is rather basic, but I intend to add more capabilities:
+
 In particular, it would be useful to be able to group the 'accounts' by category.
 
 # Screenshots
