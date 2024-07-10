@@ -5,8 +5,6 @@
       "name": "Amazon",
       "login": "myamazonid",
       "password": "7890zxcv",
-      "code": "",
-      "notes": "",
       "url": "www.amazon.com"
     },
     {
@@ -14,8 +12,6 @@
       "name": "eBay",
       "login": "ebaylogin",
       "password": "1234qwer",
-      "code": "",
-      "notes": "",
       "url": "www.ebay.com"
     },
     {
@@ -23,8 +19,6 @@
       "name": "PayPal",
       "login": "paypallogin",
       "password": "5678asdf",
-      "code": "",
-      "notes": "",
       "url": "www.paypal.com"
     },
     {
@@ -32,24 +26,62 @@
       "name": "Steam",
       "login": "steamuserid",
       "password": "S234-=90",
-      "code": "",
-      "notes": ""
     },
     {
       "id": "6",
       "name": "Credit Card",
       "login": "secretlogin",
       "password": "1h6=90gvyf?@z",
-      "code": "",
-      "notes": ""
     },
     {
       "id": "4",
       "name": "Outlook",
       "login": "outlooklogin",
       "password": "O456L-=",
-      "code": "",
-      "notes": ""
+    },
+    {
+      "id": "1b8c",
+      "name": "Bank Account",
+      "url": "www.mybank.com",
+      "login": "myusername",
+      "password": "hy3$5-gt$",
+      "code": "1234"
+    },
+    {
+      "id": "9930",
+      "name": "CS Pension",
+      "url": "www.cspension.com",
+      "login": "myid",
+      "password": "cs3£7&kdf!",
+      "code": "magic"
+    },
+    {
+      "id": "5674",
+      "name": "Workplace Pension",
+      "url": "www.aviva.com",
+      "login": "anotherloginid",
+      "password": "l9f5-8cd$"
+    },
+    {
+      "id": "7a91",
+      "name": "github",
+      "url": "www.github.com",
+      "login": "mygithubid",
+      "password": "5h9k-jk34"
+    },
+    {
+      "id": "5dcd",
+      "name": "LinkedIn",
+      "url": "www.linkedin.com",
+      "login": "mylinkedinid",
+      "password": "68p=ok*-32"
+    },
+    {
+      "id": "31a4",
+      "name": "spotify",
+      "login": "myspotifyid",
+      "password": "spo567-fyid",
+      "code": "1a3s5s7g"
     }
   ]
 }
