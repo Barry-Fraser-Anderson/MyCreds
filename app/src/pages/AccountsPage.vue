@@ -55,17 +55,19 @@ export default {
         <table class="table table-bordered table-striped">
           <thead>
             <tr>
-              <th scope="col" class="col-2">Name</th>
+              <th scope="col" class="col-3">Name</th>
+              <th scope="col" class="col-2">URL</th>
               <th scope="col" class="col-2">Login</th>
               <th scope="col" class="col-2">Password</th>
               <th scope="col" class="col-1">Code</th>
-              <th scope="col" class="col-1"></th>
+              <th scope="col" class="col-2"></th>
             </tr>
           </thead>
 
           <tbody>
             <tr scope="row" v-for="account in accounts" :key="account.id">
               <td>{{ account.name }}</td>
+              <td>{{ account.url }}</td>
               <td>{{ account.login }}</td>
               <td>{{ account.password }}</td>
               <td>{{ account.code }}</td>

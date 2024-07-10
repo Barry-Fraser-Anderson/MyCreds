@@ -59,40 +59,61 @@ export default {
 
       <div class="card-body">
         <form @submit.prevent="upsertAccount">
-          <div class="form-floating mb-3 py-2">
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              v-model="account.name"
-              required
-            />
-            <label for="name">Name</label>
+          <div class="row">
+            <div class="col">
+              <div class="form-floating mb-3 py-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  v-model="account.name"
+                  required
+                />
+                <label for="name">Name</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-floating mb-3 py-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="url"
+                  v-model="account.url"
+                />
+                <label for="url">URL</label>
+              </div>
+            </div>
           </div>
 
-          <div class="form-floating mb-3 py-2">
-            <input
-              type="text"
-              class="form-control"
-              id="login"
-              v-model="account.login"
-              required
-            />
-            <label for="login">Login</label>
+          <div class="row">
+            <div class="col">
+              <div class="form-floating mb-3 py-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="login"
+                  v-model="account.login"
+                  required
+                />
+                <label for="login">Login</label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-floating mb-3 py-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="password"
+                  v-model="account.password"
+                  required
+                />
+                <label for="password">Password</label>
+              </div>
+            </div>
           </div>
 
-          <div class="form-floating mb-3 py-2">
-            <input
-              type="text"
-              class="form-control"
-              id="word"
-              v-model="account.password"
-              required
-            />
-            <label for="word">Password</label>
-          </div>
-
-          <div class="form-floating mb-3 py-2 col-6">
+          <div class="form-floating mb-3 py-2 col-3">
             <input
               type="text"
               class="form-control"

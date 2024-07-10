@@ -3,10 +3,11 @@
     {
       "id": "1",
       "name": "Amazon",
-      "login": "amazonlogin",
+      "login": "myamazonid",
       "password": "7890zxcv",
       "code": "",
-      "notes": ""
+      "notes": "",
+      "url": "www.amazon.com"
     },
     {
       "id": "5",
@@ -14,7 +15,8 @@
       "login": "ebaylogin",
       "password": "1234qwer",
       "code": "",
-      "notes": ""
+      "notes": "",
+      "url": "www.ebay.com"
     },
     {
       "id": "2",
@@ -22,12 +24,13 @@
       "login": "paypallogin",
       "password": "5678asdf",
       "code": "",
-      "notes": ""
+      "notes": "",
+      "url": "www.paypal.com"
     },
     {
       "id": "3",
       "name": "Steam",
-      "login": "steamlogin",
+      "login": "steamuserid",
       "password": "S234-=90",
       "code": "",
       "notes": ""
