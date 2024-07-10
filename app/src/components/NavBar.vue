@@ -23,6 +23,7 @@ export default {
 
 <style scoped>
 .logo {
-  width: 80px;
+  width: 60px;
+  padding: 5px;
 }
 </style>

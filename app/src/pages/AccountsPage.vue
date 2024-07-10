@@ -31,7 +31,7 @@ export default {
 </script>
 
 <template>
-  <div class="card">
+  <div class="page card">
     <div class="card-header bg-secondary bg-gradient ml-0 py-3">
       <div class="row">
         <div class="col-12 text-center">
@@ -97,8 +97,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-.btn {
-  border-radius: 0;
-}
-</style>
+<style scoped></style>

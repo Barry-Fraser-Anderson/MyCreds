@@ -16,4 +16,12 @@ export default {
   </div>
 </template>
 
-<style scoped></style>
+<style>
+.btn {
+  border-radius: 0;
+}
+
+.page {
+  background-color: azure;
+}
+</style>
