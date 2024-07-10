@@ -11,7 +11,7 @@ export default {
 
 <template>
   <NavBar />
-  <div class="page-wrap">
+  <div>
     <router-view></router-view>
   </div>
 </template>

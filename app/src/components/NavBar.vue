@@ -12,13 +12,13 @@ export default {
 </script>
 
 <template>
-  <div class="nav-bar">
+  <nav class="navbar">
     <router-link to="/accounts">
-      <div class="logo-wrap">
+      <div>
         <img class="logo" :src="logo" />
       </div>
     </router-link>
-  </div>
+  </nav>
 </template>
 
 <style scoped>
