@@ -14,9 +14,10 @@ export default {
 <template>
   <nav class="navbar">
     <router-link to="/accounts">
-      <div>
-        <img class="logo" :src="logo" />
-      </div>
+      <div>Accounts</div>
+    </router-link>
+    <router-link to="/categories">
+      <div>Categories</div>
     </router-link>
   </nav>
 </template>

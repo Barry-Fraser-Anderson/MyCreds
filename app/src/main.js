@@ -8,6 +8,8 @@ import App from './App.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import AccountsPage from './pages/AccountsPage.vue';
 import AccountDetailsPage from './pages/AccountDetailsPage.vue';
+import CategoriesPage from './pages/CategoriesPage.vue';
+import CategoryDetailsPage from './pages/CategoryDetailsPage.vue';
 import NotFoundPage from './pages/NotFoundPage.vue';
 
 createApp(App)
@@ -23,6 +25,15 @@ createApp(App)
         {
           path: '/accounts/:accountId',
           component: AccountDetailsPage,
+        },
+        {
+          path: '/categories',
+          alias: '/',
+          component: CategoriesPage,
+        },
+        {
+          path: '/categories/:categoryId',
+          component: CategoryDetailsPage,
         },
         {
           path: '/:pathMatch(.*)*',

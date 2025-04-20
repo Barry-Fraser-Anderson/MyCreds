@@ -2,7 +2,6 @@
   "accounts": [
     {
       "id": "1",
-      "category" : "1",
       "name": "Amazon",
       "login": "myamazonid",
       "password": "7890zxcv",
@@ -10,7 +9,6 @@
     },
     {
       "id": "5",
-      "category" : "1",
       "name": "eBay",
       "login": "ebaylogin",
       "password": "1234qwer",
@@ -18,7 +16,6 @@
     },
     {
       "id": "2",
-      "category" : "1",
       "name": "PayPal",
       "login": "paypallogin",
       "password": "5678asdf",
@@ -26,28 +23,24 @@
     },
     {
       "id": "3",
-      "category" : "2",
       "name": "Steam",
       "login": "steamuserid",
       "password": "S234-=90"
     },
     {
       "id": "6",
-      "category" : "1",
       "name": "Credit Card",
       "login": "secretlogin",
       "password": "1h6=90gvyf?@z"
     },
     {
       "id": "4",
-      "category" : "4",
       "name": "Outlook",
       "login": "outlooklogin",
       "password": "O456L-="
     },
     {
       "id": "1b8c",
-      "category" : "1",
       "name": "Bank Account",
       "url": "www.mybank.com",
       "login": "myusername",
@@ -56,7 +49,6 @@
     },
     {
       "id": "9930",
-      "category" : "3",
       "name": "CS Pension",
       "url": "www.cspension.com",
       "login": "myid",
@@ -65,7 +57,6 @@
     },
     {
       "id": "5674",
-      "category" : "3",
       "name": "Workplace Pension",
       "url": "www.aviva.com",
       "login": "anotherloginid",
@@ -73,7 +64,6 @@
     },
     {
       "id": "7a91",
-      "category" : "5",
       "name": "github",
       "url": "www.github.com",
       "login": "mygithubid",
@@ -81,7 +71,6 @@
     },
     {
       "id": "5dcd",
-      "category" : "5",
       "name": "LinkedIn",
       "url": "www.linkedin.com",
       "login": "mylinkedinid",
@@ -89,38 +78,10 @@
     },
     {
       "id": "31a4",
-      "category" : "5",
       "name": "spotify",
       "login": "myspotifyid",
       "password": "spo567-fyid",
       "code": "1a3s5s7g"
-    }
-  ],
-  "categories": [
-    {
-      "id" : "1",
-      "name": "Banking",
-      "description": "Bank accounts, credit cards"
-    },
-    {
-      "id": "2",
-      "name": "Games",
-      "description": "Games, game portals"
-    },
-    {
-      "id": "3",
-      "name": "Pensions",
-      "description": "Pension accounts"
-    },
-    {
-      "id": "4",
-      "name": "Mail",
-      "description": "Mail accounts"
-    },
-    {
-      "id": "5",
-      "name": "Other",
-      "description": "Miscellaneous"
     }
   ]
 }
